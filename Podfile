@@ -6,7 +6,7 @@ target 'rejseprofil (iOS)' do
   use_frameworks!
 
   # Pods for rejseprofil (iOS)
-  # pod 'Introspect'
+  pod 'Introspect'
   pod 'Alamofire'
 end
 
@@ -15,6 +15,6 @@ target 'rejseprofil (macOS)' do
   use_frameworks!
 
   # Pods for rejseprofil (macOS)
-  # pod 'Introspect'
+  pod 'Introspect'
   pod 'Alamofire'
 end

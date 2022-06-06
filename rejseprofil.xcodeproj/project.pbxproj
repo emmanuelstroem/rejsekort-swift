@@ -17,8 +17,27 @@
 		144D0817284D34E50005F0C6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144D07ED284D34E00005F0C6 /* ContentView.swift */; };
 		144D0818284D34E50005F0C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 144D07EE284D34E50005F0C6 /* Assets.xcassets */; };
 		144D0819284D34E50005F0C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 144D07EE284D34E50005F0C6 /* Assets.xcassets */; };
+		144D082A284D56E40005F0C6 /* rejseprofil.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 144D0828284D56E40005F0C6 /* rejseprofil.xcdatamodeld */; };
+		144D082B284D56E40005F0C6 /* rejseprofil.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 144D0828284D56E40005F0C6 /* rejseprofil.xcdatamodeld */; };
+		144D082F284D58800005F0C6 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144D082D284D58800005F0C6 /* DataController.swift */; };
+		144D0830284D58800005F0C6 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144D082D284D58800005F0C6 /* DataController.swift */; };
+		144D0831284D58800005F0C6 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144D082E284D58800005F0C6 /* Models.swift */; };
+		144D0832284D58800005F0C6 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144D082E284D58800005F0C6 /* Models.swift */; };
+		144D0834284D59130005F0C6 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144D0833284D59130005F0C6 /* LoginScreen.swift */; };
+		144D0835284D59130005F0C6 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144D0833284D59130005F0C6 /* LoginScreen.swift */; };
+		144D0837284D5A5B0005F0C6 /* Authenticator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144D0836284D5A5B0005F0C6 /* Authenticator.swift */; };
+		144D0838284D5A5B0005F0C6 /* Authenticator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144D0836284D5A5B0005F0C6 /* Authenticator.swift */; };
+		144D0856284E1BAF0005F0C6 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144D0855284E1BAF0005F0C6 /* HomeScreen.swift */; };
+		144D0857284E1BAF0005F0C6 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144D0855284E1BAF0005F0C6 /* HomeScreen.swift */; };
+		144D0859284E1C0B0005F0C6 /* JourneyScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144D0858284E1C0B0005F0C6 /* JourneyScreen.swift */; };
+		144D085A284E1C0B0005F0C6 /* JourneyScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144D0858284E1C0B0005F0C6 /* JourneyScreen.swift */; };
+		144D085C284E1C320005F0C6 /* ProfileScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144D085B284E1C320005F0C6 /* ProfileScreen.swift */; };
+		144D085D284E1C320005F0C6 /* ProfileScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144D085B284E1C320005F0C6 /* ProfileScreen.swift */; };
+		144D085F284E1C620005F0C6 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144D085E284E1C620005F0C6 /* CardView.swift */; };
+		144D0860284E1C620005F0C6 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144D085E284E1C620005F0C6 /* CardView.swift */; };
+		144D0862284E1CA40005F0C6 /* CardScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144D0861284E1CA40005F0C6 /* CardScreen.swift */; };
+		144D0863284E1CA40005F0C6 /* CardScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144D0861284E1CA40005F0C6 /* CardScreen.swift */; };
 		2B84DBBAF1DE02324F71192A /* Pods_rejseprofil__iOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D55ED42B3D1DAFE9D14D2589 /* Pods_rejseprofil__iOS_.framework */; };
-		9C88843BA43F7766CD43635E /* Pods_rejseprofil__macOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2FAFCB0B8FC229523269DE1 /* Pods_rejseprofil__macOS_.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +71,16 @@
 		144D080C284D34E50005F0C6 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		144D0810284D34E50005F0C6 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		144D0812284D34E50005F0C6 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		144D0829284D56E40005F0C6 /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
+		144D082D284D58800005F0C6 /* DataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		144D082E284D58800005F0C6 /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		144D0833284D59130005F0C6 /* LoginScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
+		144D0836284D5A5B0005F0C6 /* Authenticator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Authenticator.swift; sourceTree = "<group>"; };
+		144D0855284E1BAF0005F0C6 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		144D0858284E1C0B0005F0C6 /* JourneyScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JourneyScreen.swift; sourceTree = "<group>"; };
+		144D085B284E1C320005F0C6 /* ProfileScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileScreen.swift; sourceTree = "<group>"; };
+		144D085E284E1C620005F0C6 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		144D0861284E1CA40005F0C6 /* CardScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardScreen.swift; sourceTree = "<group>"; };
 		9D37FF4B3753588E4D831EFA /* Pods-rejseprofil (iOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rejseprofil (iOS).debug.xcconfig"; path = "Target Support Files/Pods-rejseprofil (iOS)/Pods-rejseprofil (iOS).debug.xcconfig"; sourceTree = "<group>"; };
 		B962433F36593D3D43F70E03 /* Pods-rejseprofil (macOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rejseprofil (macOS).release.xcconfig"; path = "Target Support Files/Pods-rejseprofil (macOS)/Pods-rejseprofil (macOS).release.xcconfig"; sourceTree = "<group>"; };
 		D55ED42B3D1DAFE9D14D2589 /* Pods_rejseprofil__iOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rejseprofil__iOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -72,7 +101,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C88843BA43F7766CD43635E /* Pods_rejseprofil__macOS_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -109,6 +137,11 @@
 		144D07EB284D34E00005F0C6 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				144D0854284E1B8C0005F0C6 /* Home */,
+				144D0836284D5A5B0005F0C6 /* Authenticator.swift */,
+				144D0833284D59130005F0C6 /* LoginScreen.swift */,
+				144D082C284D58510005F0C6 /* CoreData */,
+				144D0828284D56E40005F0C6 /* rejseprofil.xcdatamodeld */,
 				144D07EC284D34E00005F0C6 /* rejseprofilApp.swift */,
 				144D07ED284D34E00005F0C6 /* ContentView.swift */,
 				144D07EE284D34E50005F0C6 /* Assets.xcassets */,
@@ -153,6 +186,27 @@
 			path = "Tests macOS";
 			sourceTree = "<group>";
 		};
+		144D082C284D58510005F0C6 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				144D082D284D58800005F0C6 /* DataController.swift */,
+				144D082E284D58800005F0C6 /* Models.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		144D0854284E1B8C0005F0C6 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				144D0855284E1BAF0005F0C6 /* HomeScreen.swift */,
+				144D0858284E1C0B0005F0C6 /* JourneyScreen.swift */,
+				144D085B284E1C320005F0C6 /* ProfileScreen.swift */,
+				144D085E284E1C620005F0C6 /* CardView.swift */,
+				144D0861284E1CA40005F0C6 /* CardScreen.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
 		94E19CE66853F1DB729E4EDE /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -161,7 +215,6 @@
 				E0082ACF185FB93B75C438EB /* Pods-rejseprofil (macOS).debug.xcconfig */,
 				B962433F36593D3D43F70E03 /* Pods-rejseprofil (macOS).release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -418,7 +471,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				144D0816284D34E50005F0C6 /* ContentView.swift in Sources */,
+				144D0837284D5A5B0005F0C6 /* Authenticator.swift in Sources */,
+				144D082F284D58800005F0C6 /* DataController.swift in Sources */,
+				144D0859284E1C0B0005F0C6 /* JourneyScreen.swift in Sources */,
 				144D0814284D34E50005F0C6 /* rejseprofilApp.swift in Sources */,
+				144D0862284E1CA40005F0C6 /* CardScreen.swift in Sources */,
+				144D0856284E1BAF0005F0C6 /* HomeScreen.swift in Sources */,
+				144D082A284D56E40005F0C6 /* rejseprofil.xcdatamodeld in Sources */,
+				144D0831284D58800005F0C6 /* Models.swift in Sources */,
+				144D0834284D59130005F0C6 /* LoginScreen.swift in Sources */,
+				144D085F284E1C620005F0C6 /* CardView.swift in Sources */,
+				144D085C284E1C320005F0C6 /* ProfileScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,7 +490,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				144D0817284D34E50005F0C6 /* ContentView.swift in Sources */,
+				144D0838284D5A5B0005F0C6 /* Authenticator.swift in Sources */,
+				144D0830284D58800005F0C6 /* DataController.swift in Sources */,
+				144D085A284E1C0B0005F0C6 /* JourneyScreen.swift in Sources */,
 				144D0815284D34E50005F0C6 /* rejseprofilApp.swift in Sources */,
+				144D0863284E1CA40005F0C6 /* CardScreen.swift in Sources */,
+				144D0857284E1BAF0005F0C6 /* HomeScreen.swift in Sources */,
+				144D082B284D56E40005F0C6 /* rejseprofil.xcdatamodeld in Sources */,
+				144D0832284D58800005F0C6 /* Models.swift in Sources */,
+				144D0835284D59130005F0C6 /* LoginScreen.swift in Sources */,
+				144D0860284E1C620005F0C6 /* CardView.swift in Sources */,
+				144D085D284E1C320005F0C6 /* ProfileScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -823,6 +896,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		144D0828284D56E40005F0C6 /* rejseprofil.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				144D0829284D56E40005F0C6 /* Shared.xcdatamodel */,
+			);
+			currentVersion = 144D0829284D56E40005F0C6 /* Shared.xcdatamodel */;
+			path = rejseprofil.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 144D07E7284D34E00005F0C6 /* Project object */;
 }
