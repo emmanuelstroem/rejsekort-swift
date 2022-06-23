@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="20086" systemVersion="21F79" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="YES" userDefinedModelVersionIdentifier="Card">
+    <entity name="Card" representedClassName="Card" parentEntity="User" syncable="YES" codeGenerationType="class">
+        <attribute name="balanceAmount" optional="YES" attributeType="String"/>
+        <attribute name="electricNumber" optional="YES" attributeType="String"/>
+        <attribute name="expiryDate" optional="YES" attributeType="String"/>
+        <attribute name="number" optional="YES" attributeType="String"/>
+        <attribute name="prefix" optional="YES" attributeType="String"/>
+        <attribute name="status" optional="YES" attributeType="String"/>
+        <relationship name="journeys" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Journey" inverseName="card" inverseEntity="Journey"/>
+        <relationship name="orders" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Order" inverseName="card" inverseEntity="Order"/>
+        <relationship name="user" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="User" inverseName="cards" inverseEntity="User"/>
+    </entity>
+    <entity name="Journey" representedClassName="Journey" parentEntity="Card" syncable="YES" codeGenerationType="class">
+        <attribute name="balance" optional="YES" attributeType="String"/>
+        <attribute name="date" optional="YES" attributeType="String"/>
+        <attribute name="from" optional="YES" attributeType="String"/>
+        <attribute name="journeyNo" optional="YES" attributeType="String"/>
+        <attribute name="time" optional="YES" attributeType="String"/>
+        <attribute name="to" optional="YES" attributeType="String"/>
+        <relationship name="card" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Card" inverseName="journeys" inverseEntity="Card"/>
+    </entity>
+    <entity name="Order" representedClassName="Order" parentEntity="Card" syncable="YES" codeGenerationType="class">
+        <attribute name="amount" optional="YES" attributeType="String"/>
+        <attribute name="balance" optional="YES" attributeType="String"/>
+        <attribute name="date" optional="YES" attributeType="String"/>
+        <attribute name="from" optional="YES" attributeType="String"/>
+        <attribute name="time" optional="YES" attributeType="String"/>
+        <attribute name="to" optional="YES" attributeType="String"/>
+        <attribute name="transactionType" optional="YES" attributeType="String"/>
+        <relationship name="card" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Card" inverseName="orders" inverseEntity="Card"/>
+    </entity>
+    <entity name="User" representedClassName="User" syncable="YES" codeGenerationType="class">
+        <attribute name="address" optional="YES" attributeType="String"/>
+        <attribute name="email" optional="YES" attributeType="String"/>
+        <attribute name="landLine" optional="YES" attributeType="String"/>
+        <attribute name="mobile" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <relationship name="cards" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Card" inverseName="user" inverseEntity="Card"/>
+    </entity>
+    <fetchRequest name="Card" entity="Card" includeSubentities="YES"/>
+    <fetchRequest name="Journey" entity="Journey"/>
+    <fetchRequest name="Order" entity="Order"/>
+    <fetchRequest name="User" entity="User"/>
+    <elements>
+        <element name="Card" positionX="-397.67236328125" positionY="-111.6194458007812" width="154.03466796875" height="164"/>
+        <element name="Journey" positionX="-173.748291015625" positionY="-47.5213623046875" width="128" height="134"/>
+        <element name="Order" positionX="-171.2476806640625" positionY="-254.8377990722656" width="128" height="149"/>
+        <element name="User" positionX="-615.3132934570312" positionY="-81.07455444335938" width="128" height="119"/>
+    </elements>
+</model>
