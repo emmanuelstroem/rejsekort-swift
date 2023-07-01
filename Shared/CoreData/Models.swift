@@ -21,7 +21,7 @@ struct UserStruct: Codable {
   
   enum CodingKeys: String, CodingKey {
     case name = "Name"
-    case address       = "Address"
+    case address = "Address"
     case email = "E-mail"
     case landLine = "Land line"
     case mobile = "Mobile"
@@ -58,9 +58,9 @@ struct HistoryStruct: Codable {
 }
 
 struct JourneyStruct: Codable {
-  let number: String
+  let number: String?
   let date: String
-  let time: String
+  let time: String?
   let from: String
   let to: String
   let balance: String
@@ -76,12 +76,12 @@ struct JourneyStruct: Codable {
 }
 
 struct OrderStruct: Codable {
-  let transactionType: String
-  let date: String
-  let time: String
-  let from: String
-  let to: String
-  let amount: String
+  let transactionType: String?
+  let date: String?
+  let time: String?
+  let from: String?
+  let to: String?
+  let amount: String?
   let balance: String?
   
   enum CodingKeys: String, CodingKey {

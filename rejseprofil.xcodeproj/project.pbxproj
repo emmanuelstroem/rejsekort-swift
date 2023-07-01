@@ -37,7 +37,10 @@
 		144D0860284E1C620005F0C6 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144D085E284E1C620005F0C6 /* CardView.swift */; };
 		144D0862284E1CA40005F0C6 /* CardScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144D0861284E1CA40005F0C6 /* CardScreen.swift */; };
 		144D0863284E1CA40005F0C6 /* CardScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144D0861284E1CA40005F0C6 /* CardScreen.swift */; };
+		14E0C6F62A50658C00B21FD1 /* JourneyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E0C6F52A50658C00B21FD1 /* JourneyView.swift */; };
+		14E0C6F72A50658C00B21FD1 /* JourneyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E0C6F52A50658C00B21FD1 /* JourneyView.swift */; };
 		2B84DBBAF1DE02324F71192A /* Pods_rejseprofil__iOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D55ED42B3D1DAFE9D14D2589 /* Pods_rejseprofil__iOS_.framework */; };
+		9A6206108B0B5340DA3F175E /* Pods_rejseprofil__macOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2FAFCB0B8FC229523269DE1 /* Pods_rejseprofil__macOS_.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +84,7 @@
 		144D085B284E1C320005F0C6 /* ProfileScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileScreen.swift; sourceTree = "<group>"; };
 		144D085E284E1C620005F0C6 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		144D0861284E1CA40005F0C6 /* CardScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardScreen.swift; sourceTree = "<group>"; };
+		14E0C6F52A50658C00B21FD1 /* JourneyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JourneyView.swift; sourceTree = "<group>"; };
 		9D37FF4B3753588E4D831EFA /* Pods-rejseprofil (iOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rejseprofil (iOS).debug.xcconfig"; path = "Target Support Files/Pods-rejseprofil (iOS)/Pods-rejseprofil (iOS).debug.xcconfig"; sourceTree = "<group>"; };
 		B962433F36593D3D43F70E03 /* Pods-rejseprofil (macOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rejseprofil (macOS).release.xcconfig"; path = "Target Support Files/Pods-rejseprofil (macOS)/Pods-rejseprofil (macOS).release.xcconfig"; sourceTree = "<group>"; };
 		D55ED42B3D1DAFE9D14D2589 /* Pods_rejseprofil__iOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rejseprofil__iOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -101,6 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A6206108B0B5340DA3F175E /* Pods_rejseprofil__macOS_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,8 +204,9 @@
 			isa = PBXGroup;
 			children = (
 				144D0855284E1BAF0005F0C6 /* HomeScreen.swift */,
-				144D0858284E1C0B0005F0C6 /* JourneyScreen.swift */,
 				144D085B284E1C320005F0C6 /* ProfileScreen.swift */,
+				144D0858284E1C0B0005F0C6 /* JourneyScreen.swift */,
+				14E0C6F52A50658C00B21FD1 /* JourneyView.swift */,
 				144D085E284E1C620005F0C6 /* CardView.swift */,
 				144D0861284E1CA40005F0C6 /* CardScreen.swift */,
 			);
@@ -312,7 +318,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1330;
-				LastUpgradeCheck = 1330;
+				LastUpgradeCheck = 1430;
 				TargetAttributes = {
 					144D07F2284D34E50005F0C6 = {
 						CreatedOnToolsVersion = 13.3.1;
@@ -473,6 +479,7 @@
 				144D0816284D34E50005F0C6 /* ContentView.swift in Sources */,
 				144D0837284D5A5B0005F0C6 /* Authenticator.swift in Sources */,
 				144D082F284D58800005F0C6 /* DataController.swift in Sources */,
+				14E0C6F62A50658C00B21FD1 /* JourneyView.swift in Sources */,
 				144D0859284E1C0B0005F0C6 /* JourneyScreen.swift in Sources */,
 				144D0814284D34E50005F0C6 /* rejseprofilApp.swift in Sources */,
 				144D0862284E1CA40005F0C6 /* CardScreen.swift in Sources */,
@@ -492,6 +499,7 @@
 				144D0817284D34E50005F0C6 /* ContentView.swift in Sources */,
 				144D0838284D5A5B0005F0C6 /* Authenticator.swift in Sources */,
 				144D0830284D58800005F0C6 /* DataController.swift in Sources */,
+				14E0C6F72A50658C00B21FD1 /* JourneyView.swift in Sources */,
 				144D085A284E1C0B0005F0C6 /* JourneyScreen.swift in Sources */,
 				144D0815284D34E50005F0C6 /* rejseprofilApp.swift in Sources */,
 				144D0863284E1CA40005F0C6 /* CardScreen.swift in Sources */,
@@ -571,6 +579,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -629,6 +638,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -720,6 +730,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = A9Q5VPE9WX;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -749,6 +760,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = A9Q5VPE9WX;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -815,6 +827,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = A9Q5VPE9WX;
 				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
@@ -834,6 +847,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = A9Q5VPE9WX;
 				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 12.3;

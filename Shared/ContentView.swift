@@ -8,9 +8,20 @@
 import SwiftUI
 
 struct ContentView: View {
+    @EnvironmentObject var appData: AppData
+    @Environment(\.managedObjectContext) private var viewContext
+//    let persistenceController = PersistenceController.shared
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        if self.appData.isLoggedIn {
+          HomeScreen()
+            .environment(\.managedObjectContext, viewContext)
+        }
+        else {
+            LoginView()
+              .environment(\.managedObjectContext, viewContext)
+              .environmentObject(appData)
+        }
     }
 }
 
